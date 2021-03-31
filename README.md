@@ -22,7 +22,7 @@
 ## Ect
 
 ### Git, GitHub
-- [🦾pull_request🦿](HowToUseGitHub/pull_request/🦾pull_request🦿.md)
+- [🦾pull_request🦿](HowToUseGitHub/pull_request/pull_request.md)
 
 ### Tech News
 - [개발자의 구글링, 구글링의 팁](HowToGoogleIt/개발자의_구글링.md)
