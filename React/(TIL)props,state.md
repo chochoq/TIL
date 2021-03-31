@@ -1,10 +1,16 @@
 # (TIL) props, state
 
+<br/>
+
+
 # React Props
 
 props는 변하지 않는(Immutable Data) 데이터이다. 
 
 상위(부모) 컴포넌트에서 하위(자식) 컴포넌트로 데이터를 전할 때, props가 사용된다.
+
+<br/>
+
 
 ## React Props
 
@@ -25,6 +31,8 @@ class Car extends React.Component {
   }
 }
 ```
+
+<br/>
 
 ## Pass Date
 
@@ -108,6 +116,7 @@ class Garage extends React.Component {
 
 ReactDOM.render(<Garage />, document.getElementById('root'));
 ```
+<br/>
 
 ## Props in the Constructor
 
@@ -128,6 +137,8 @@ ReactDOM.render(<Car model="Mustang"/>, document.getElementById('root'));
 
 props는 읽기전용이라, 값을 변경하려고 하면 오류가 발생한다.
 
+<br/>
+
 # React State
 
 컴포넌트에서 유동적인 데이터를 다룰 때, state를 사용한다. React.js 어플리케이션을 만들 땐, state를 사용하는 컴포넌트의 갯수를 최소화하는 것을 노력해야한다.
@@ -139,14 +150,10 @@ props와 state는 생긴 건 비슷하지만 용도는 다르다. 헷갈리지 �
 <img width="100%" src="https://images.velog.io/images/chocho/post/ea06e965-99ed-4406-af79-cac3feeff6db/_2021-03-30__8.34.58.png">
 ---
 
-출처
+<br/>
+
+*출처*
 
 [React State](https://www.w3schools.com/react/react_state.asp)
 
 ---
-
-[4.4 노드의 속성/Props 정의하기](https://hayanmind.gitbooks.io/react-enlightenment-in-korean/content/react-nodes/4.4.html)
-
-[React 3 | Props 와 State](https://medium.com/@yms0214/react-3-props-%EC%99%80-state-cf8cbf37d0e7)
-
-[(React.js) React.js의 props 사용방법](https://medium.com/@yeon22/react-js-react-js%EC%9D%98-props-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-bc59a5c257a)

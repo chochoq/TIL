@@ -13,10 +13,14 @@
 
     같은 repo를 사용하기때문에 수정을하면 원본의 repo에도 같이 수정이 됩니다.
 
+    <br/>
+
 # what's pull request?
 
 - 작업한 코드를 repository에 merge 하기 전 merge가 이루어져도 좋은 지 코드의 관리자들이나 팀원들에게 리뷰 받는것
 - 특정 개인이 마음대로 코드 저장소를 수정할 수 없게 하는 것
+
+<br/>
 
 # pull requests  good thing
 
@@ -28,6 +32,8 @@
     → 다른사람에게 보여준다는 생각을 가지고 개발하게되면 코드에 품질에 신경쓰게된다.
 
 이 게시글에서 모든 pull requests는 깃허브 웹페이지로 진행됩니다.
+
+<br/>
 
 # 브랜치 보호정책
 
@@ -44,6 +50,8 @@
  
 
 5. 이와같이 설정을 했다면 앞으로 우리는 main or marster 브랜치에 곧바로 commit이 불가능해집니다. 그럼 다음에 우리가 해야할 것은?
+
+<br/>
 
 # pull request routine
 
@@ -71,7 +79,13 @@
 <img width="70%" src="https://images.velog.io/images/chocho/post/d45f13b3-2971-4fd1-a194-be0ce9368c27/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.29.59.png">
 4. repo를 같이 사용하는 Contributor의 리뷰를 기다립니다.
 
-### 당신이 리뷰를 작성해야 한다면
+<br/>
+<hr/>
+<br/>
+
+## 당신이 리뷰를 작성해야 한다면
+
+
 
 1. repo의 메뉴바에 보면 pull requests가 보입니다.
 
