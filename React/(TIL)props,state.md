@@ -136,8 +136,7 @@ props는 읽기전용이라, 값을 변경하려고 하면 오류가 발생한�
 
 props와 state는 생긴 건 비슷하지만 용도는 다르다. 헷갈리지 않게 다음 특성을 기억하자.
 
-![(TIL)%20props,%20state%20ee7d12c3ef994d289e6a81cd6f5319a6/_2021-03-30__8.34.58.png]((TIL)%20props,%20state%20ee7d12c3ef994d289e6a81cd6f5319a6/_2021-03-30__8.34.58.png)
-
+<img width="100%" src="https://images.velog.io/images/chocho/post/ea06e965-99ed-4406-af79-cac3feeff6db/_2021-03-30__8.34.58.png">
 ---
 
 출처

@@ -31,7 +31,7 @@
 
 # 브랜치 보호정책
 
-![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__12.38.51.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__12.38.51.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/af76b15b-fd0a-4b8a-b5e5-4fe46b81732e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.38.51.png">
 
 1. 레포지토리의 **settings** 클릭
 2. **branches** 클릭
@@ -40,7 +40,8 @@
     - 리뷰를 몆명에게 받아야하는지 체크하고 설정된 인원수의 사람에게 코드리뷰를 받아야지 merge할수있습니다
     - 이 적용사항이 레포지토리의 주인에게도 적용되게 설정합니다.
 
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__12.47.47.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__12.47.47.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/23db9a29-f6c3-483c-816c-258731a2588c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.47.47.png">
+ 
 
 5. 이와같이 설정을 했다면 앞으로 우리는 main or marster 브랜치에 곧바로 commit이 불가능해집니다. 그럼 다음에 우리가 해야할 것은?
 
@@ -55,10 +56,8 @@
     아래의 사진에서 머지시키길 원하는 브랜치를 선택,확인 해줍니다(보통 main or master)
 
     메세지를 적어주고 풀리퀘스트 요청을 해줍니다.
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__8.06.22.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__8.06.22.png)
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__8.09.25.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__8.09.25.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/e12abcba-0d27-4768-bf24-8b7f82592215/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.06.22.png">
+<img width="70%" src="https://images.velog.io/images/chocho/post/c1203b36-0065-4383-b899-fc340f81c45d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.09.25.png">
 
 3. 요청을 완료 했다면 아래 빨간색으로 무섭게 경고가 표시되있습니다.
 
@@ -69,9 +68,7 @@
     merging is blocked → 머지(병합)이 차단되었습니다.
 
     브랜치 보호정책 설정을 했기 때문입니다.
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.23.09.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.23.09.png)
-
+<img width="70%" src="https://images.velog.io/images/chocho/post/d45f13b3-2971-4fd1-a194-be0ce9368c27/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.29.59.png">
 4. repo를 같이 사용하는 Contributor의 리뷰를 기다립니다.
 
 ### 당신이 리뷰를 작성해야 한다면
@@ -80,17 +77,16 @@
 
     그 옆에 숫자가 보이나요?
     이 의미는 pull requests가 3개가 있다는 의미입니다. 
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.29.26.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.29.26.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/d45f13b3-2971-4fd1-a194-be0ce9368c27/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.29.59.png">
 
 2. 리뷰를 작성할 2개의 풀리퀘가 보입니다.
 그럼 하나의 풀리퀘 요청에 들어가 보겟습니다.
 
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.34.34.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.34.34.png)
+  <img width="70%" src="https://images.velog.io/images/chocho/post/0475ef69-2ab0-43c0-84b2-f7be16d8e28f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.31.08.png">
 
 3. 리뷰어의 요청을 기다리고 있는 것이 보입니다.
 
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.38.08.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.38.08.png)
+  <img width="70%" src="https://images.velog.io/images/chocho/post/18fcb184-693f-4524-be91-614b4ac745ec/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.31.28.png">
 
 4. 1 → 커밋 메뉴로 들어가 바뀌거나 추가된것을 확인합니다
 2 → review changes(변경사항검토) 버튼클릭
@@ -101,8 +97,7 @@
     하지만, 작성한 코드가 마음에 들지않았다면 comment를 작성해 왜 이딴 코드를 만들었냐고 따져줍니다. 이때 Request changes를 선택해 변경요청을 해줄수도있습니다 
 
     하지만 저는 무조건 마음에 듭니다. 저에게 트러블이란 없기때문에!!!111
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.40.07.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.40.07.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/183d8b50-538e-42a4-ab60-1418b03f75b2/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.40.07.png">
 
     5. 충돌이 없기 때문에 바로 메인 브랜치에 merge(병합) 시킬수있습니다.
 
@@ -110,20 +105,18 @@
     아래 머지 메세지를 작성하고 성공한 메세지를 볼수있습니다.
     저는 깔끔한 브랜치를 위해 delete branch 클릭. 지워도 되돌리기(revert) 가능합니다.
 
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.59.40.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__6.59.40.png)
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__7.05.50.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__7.05.50.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/bd466e8c-801b-4260-8fd0-85a6cbe03106/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.59.40.png">
+<img width="70%" src="https://images.velog.io/images/chocho/post/42cc39bc-97fe-466e-a269-805a3b57696a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.33.09.png">
 
     6. 완료가 되어 Create hoho 가 보이지 않는 것을 확인할 수 있습니다.
     code에서도 확인이 가능합니다
 
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__7.09.41.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__7.09.41.png)
-
-    ![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__7.11.12.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__7.11.12.png)
+ <img width="70%" src="https://images.velog.io/images/chocho/post/d3179615-bd85-4aac-a75b-7dfc25a83640/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.33.59.png">
+ <img width="70%" src="https://images.velog.io/images/chocho/post/d3179615-bd85-4aac-a75b-7dfc25a83640/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-20%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%203.33.59.png">
 
 # 4. 로 다시 돌아가 코드리뷰를 해보겟습니다.
 
-![%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__8.13.43.png](%F0%9F%A6%BEpull%20request%F0%9F%A6%BF%203d2e514c730d4a25872a05bf5175ce1d/_2021-03-19__8.13.43.png)
+<img width="70%" src="https://images.velog.io/images/chocho/post/92180c6d-9886-44b9-b56d-3bc987d99e70/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-03-19%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.13.43.png">
 
 - 1의 경우는 comment 선택을 하고 의견을 제시했습니다.
 - 2의 경우는 request changes(변경요청)을 하면서 코멘트를 달았습니다.
