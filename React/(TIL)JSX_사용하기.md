@@ -4,6 +4,33 @@
 
 # JSX 문법
 
+## 태그는 꼭 닫아준다
+
+App.js 파일에서 실습합니다! (오류를 내면서 해보는 거예요!)
+
+하이라이트 된 부분은 지워주세요.
+
+![](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd37cc27f-32eb-428c-811a-4e5def9852bf%2F_2020-10-04__10.49.55.png?table=block&id=1a1171a0-245a-40b3-8dcf-7194d8aa7bb1&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1060&userId=7d16dc4d-9462-41bf-ab91-e32614e40d16&cache=v2)
+
+```jsx
+// input 태그를 닫지 않고 넣어볼거예요!
+//-> input 태그는 html에서는 닫지않고도 사용이 가능하지만 jsx에서는 꼭 닫아주어야합니다
+function App() {
+  return (
+    <div className="App">
+      <input type='text'>
+    </div>
+  );
+}
+```
+
+![](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F74abe6a2-a720-4eb4-b8cc-4c3e4ba43ba7%2F_2020-10-04__10.52.29.png?table=block&id=f737483f-115c-4928-88d1-2ec38b358596&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=790&userId=7d16dc4d-9462-41bf-ab91-e32614e40d16&cache=v2)
+
+JSX 문법에 맞지 않는다고 에러가 납니다! 아래처럼 /를 추가하고 브라우저를 새로고침 해봅시다.
+
+```jsx
+<input type='text'/>
+```
 ## 태그에 className을 줘서 사용할수있다
 
 ```jsx
@@ -21,7 +48,7 @@ import './App.css';
 }
 ```
 
-## 리액트에서의 데이터 바인딩
+## 리액트에서의 데이터 바인딩(변수지정)
 
 Binding : 받아온 데이터를 js에 저장한후 html로 넣어서 출력해주는 것 
 
