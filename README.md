@@ -38,6 +38,7 @@
 - [노션 페이지로 프레젠테이션하기](ect/노션페이지로_프레젠테이션하기.md)
 - [HTTP](ect/HTTP.md)
 - [VS Code 자동정렬 prettier_익스텐션](IDE/VSC_자동정렬.md)
+- [input에서 유효성검사](ect/input에서_유효성검사.md)
 
 ## Tech News
 - [개발자의 구글링, 구글링의 팁](HowToGoogleIt/개발자의_구글링.md)
