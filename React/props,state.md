@@ -1,4 +1,4 @@
-# (TIL) props, state
+# props, state
 
 <br/>
 

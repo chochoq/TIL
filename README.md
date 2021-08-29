@@ -15,16 +15,29 @@
 
 
 
-- [props, state(state 추가예정)](React/(TIL)props,state.md)
+- [React를 사용하는 이유](React/React를_사용하는_이유.md)
+- [JSX 사용하기](React/JSX_사용하기.md)
+- [라이프사이클 (리액트 생명주기)](React/라이프사이클(리액트_생명주기).md)
+- [props, state](React/(TIL)props,state.md)
+- [성능잡기](React/성능잡기.md)
+- [Component 사용설명서](React/Component_사용설명서.md)
+- [find()](React/find().md)
+- [React_Developer_Tools 사용하기](React/React_Developer_Tools_사용하기.md)
 
 
+## JavaScript
 
-<br/>
-
-## Ect
+- [typeof() 연산자](JavaScript/typeof()_연산자.md)
 
 ### Git, GitHub
 - [🦾pull_request🦿](HowToUseGitHub/pull_request/pull_request.md)
+- [github page로 호스팅하기](HowToUseGitHub/github_page로_호스팅하기.md)
+
+## Ect
+- [노션 주소를 원하는 도메인으로 포워딩 시키자](ect/노션_주소를_원하는_도메인으로_포워딩_시키자.md)
+- [노션 페이지로 프레젠테이션하기](ect/노션페이지로_프레젠테이션하기.md)
+- [HTTP](ect/HTTP.md)
+- [VS Code 자동정렬 prettier_익스텐션](IDE/VSC_자동정렬.md)
 
 ### Tech News
 - [개발자의 구글링, 구글링의 팁](HowToGoogleIt/개발자의_구글링.md)
