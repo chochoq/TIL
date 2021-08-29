@@ -29,7 +29,7 @@
 
 - [typeof() 연산자](JavaScript/typeof()_연산자.md)
 
-### Git, GitHub
+## Git, GitHub
 - [🦾pull_request🦿](HowToUseGitHub/pull_request/pull_request.md)
 - [github page로 호스팅하기](HowToUseGitHub/github_page로_호스팅하기.md)
 
@@ -39,5 +39,5 @@
 - [HTTP](ect/HTTP.md)
 - [VS Code 자동정렬 prettier_익스텐션](IDE/VSC_자동정렬.md)
 
-### Tech News
+## Tech News
 - [개발자의 구글링, 구글링의 팁](HowToGoogleIt/개발자의_구글링.md)
