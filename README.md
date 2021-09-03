@@ -28,6 +28,8 @@
 ## JavaScript
 
 - [typeof() 연산자](JavaScript/typeof()_연산자.md)
+- [Data Parsing](JavaScript/DataParsing.md)
+- [Promise(호스팅, 콜백)](JavaScript/Promise.md)
 
 ## Git, GitHub
 - [🦾pull_request🦿](HowToUseGitHub/pull_request/pull_request.md)
