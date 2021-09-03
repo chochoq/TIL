@@ -10,6 +10,8 @@
 
 <br/>
 
+---
+
 
 ## React🧑🏾‍🎤
 
@@ -23,6 +25,7 @@
 - [Component 사용설명서](React/Component_사용설명서.md)
 - [find()](React/find().md)
 - [React_Developer_Tools 사용하기](React/React_Developer_Tools_사용하기.md)
+- [(react-router-dom)BrowserRouter,HashRouter](React/(react-router-dom)BrowserRouter,HashRouter.md)
 
 
 ## JavaScript
@@ -30,6 +33,15 @@
 - [typeof() 연산자](JavaScript/typeof()_연산자.md)
 - [Data Parsing](JavaScript/DataParsing.md)
 - [Promise(호스팅, 콜백)](JavaScript/Promise.md)
+
+## HTML5
+
+- [(HTML) input에서 유효성검사](HTML/(HTML)input에서_유효성검사.md)
+- [(button type)submit button reset](HTML/(button_type)submit_button_reset.md)
+
+## Algorithm
+- [선형탐색 문제](Algorithm/선형탐색_문제.md)
+- [이진탐색 문제](Algorithm/이진탐색_문제.md)
 
 ## Git, GitHub
 - [🦾pull_request🦿](HowToUseGitHub/pull_request/pull_request.md)
